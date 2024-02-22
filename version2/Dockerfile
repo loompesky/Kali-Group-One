@@ -1,5 +1,5 @@
 FROM php:8.0-apache
 
-COPY index.html /var/www/html/
+COPY src/  /var/www/html/
 
 EXPOSE 80
